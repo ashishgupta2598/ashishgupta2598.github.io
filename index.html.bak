@@ -1,0 +1,517 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Ashish Gupta Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
+
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Ashish Gupta</a></h1>
+				<span class="position"><a href="#"></a>Explorer</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						
+						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="work">Work</a></li>
+						<li><a href="#" data-nav-section="blog">Blog</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="colorlib-footer">
+				
+				<ul>
+					<li><a href="#"><i class="icon-facebook2"></i></a></li>
+					<li><a href="#"><i class="icon-twitter2"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+					<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+				</ul>
+			</div>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/img_bg_1.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1>Hi! <br>I'm Ashish</h1>
+						   					<h2><a href="https://colorlib.com/" target="_blank"></a></h2>
+												<p><a class="btn btn-primary btn-learn" href="./cv.pdf">View CV <i class="icon-download4"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				   
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About Us</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Ashish Gupta</strong> I am AI researcher and Web designer with passion to bring a better world. I have passion to help people,and improves the world.I am pesruing Bachlor of Engineering in Computer Science Engineering from Birla Institute Of Technology,Mesra.During this journey of Engineering I have done three internships.My recent work is under Professor Arun K. Punjari,Vice Chancellor,Centeral University of Rajasthan,Ajmer.As a research Fellow I worked on 3D object reconstruction,Semantic Segmentation, Voxels,Pose estimation,Visual Hull algorithms,etc. 
+										In my other internship in Orbnet Softech I worked in web designing as backend developer and Desktop Application development with Java. I also have experinced as Graphic Designer,Content Creator,and Marketing/Sponsorship Intern at Unfold Crafts.
+										</p>
+										<p>Other then Academics,I have also worked  Computer Society of India ,BIT Student Chapter Head. I have worked as a operation coordinator at Quizophilic India and as a sponsorship coordinator at Cavorts Sports Fest BIT Mesra. And Sposorship and managenet coordinator at Surbhi Music Academy. </p>
+										<p>I am an AI enthusiast and also in search between connection of AI with Humans.Having Innovation and curious mind, I am constantly on the lookout for solutions to existent problems in our everyday life and look forward to creating something that helps to improve the lives of billions of people across the world. I always see desiging AI as teaching a small child to perform some task. I am always curious to learn different dimensions of AI like backpropogation,Dataset Preparation,Generalization(Bias,etc.) and model designing.</p>
+										
+										<p>In my spare time, I love making music(lost when guitar or piano in hand and singing loud).I love reading books and listining podcast and playing games. I love to read about the patterns exist in this world. I believe in the concept of lifelong learning.I can occasionally be found blogging on <a href="https://medium.com/@ashishgupta_65016" target="__blank">Medium</a>.
+										</p>
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+			
+
+
+				<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">My Specialty</span>
+										<h2 class="colorlib-heading">My Skills</h2>
+											<div class="paragraph" style="text-align:left;"><font color="#2a2a2a"><strong>Programming Languages:</strong>&nbsp;Python 3x,Java(SE & EE),C,&nbsp;</font><span style="color:rgb(42, 42, 42)">&nbsp;</span><font color="#2a2a2a">C++,HTML,SQL<br><br><strong>IDEs /Cloud:</strong>Jupyter Notebook,<i>Google Colab</i>NetBeans,Eclipse <br><br><strong>Frameworks / Libraries / Tools :</strong>&nbsp;PyTorch,&nbsp;</font><span style="color:rgb(42, 42, 42)">TensorFlow, Keras,&nbsp;</span><font color="#2a2a2a">scikit-learn, Matlab, Octave<br><br><strong>Miscellaneous:</strong> Machine Learning, Deep learning, Computer Vision, NLP, Enterprise Application Developement,Desktop Application Developement<br><br><strong>Operating Systems: </strong>Windows, Linux(Ubuntu)</font></div>
+
+
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+
+
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience/Internships</span>
+							<h2 class="colorlib-heading animate-box">Work Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+
+					               <div class="timeline-icon color-1">
+					                  <i class="icon-pen2"></i>
+					               </div>
+
+					               <div class="timeline-label">
+					                  <h2>Research Fellow Under Professor Arun K. Pujari <span>2019</span></h2>
+					                  <p>Under my research under Professor Arun K. Pujari Vice Chancellor,Central University Of Rajasthan,Ajmer I worked on 3D object reconstruction. Its like give me a image of object and I will construct the 3D of that object. We have used Shapenet 3D and Pascal Voc dataset with Deep Residual Networks(CNN).</p>
+					               </div>
+					            </div>
+					         </article>
+
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>Backend/Desktop Application Developement Intern at Orbet Softech</a> <span>May 2018-July-2018</span></h2>
+					                  <p>At Orbet I worked on developing Student Online Test System with Marks Evalution Using Fuzzy Logic(Online Portal) with JSP,MySQL,HTML,CSS and develop various small Desktop Application in Java.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>Marketing Intern,Content Creator,Designer at Unfold Craft</a> <span>May 2016- June 2018</span></h2>
+					                  <p>At Unfold Craft I worked on Content Creator and also as a artist in Video Based on <a href="https://www.youtube.com/watch?v=7_aekDPZDzo" target="_blank">Friendship</a>.As marketing intern I have worked in finding Sponsors for <a href="https://www.youtube.com/watch?v=QHW9hdnXzOU" target="_blank">Independence Day video</a>
+									  and also given music in a video on <a href=" https://www.youtube.com/watch?v=EB2I43nzqCU&t=2s" target="_blank">Raksha Bandhan</a>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>Head/Convenor Computer Society Of India BIT Mesra Chapter</a> <span>2017-Currently Active</span></h2>
+					                  <p>Under CSI I have organised various seminers.talks,activities,classes.I have also started AI club in the college.In CSI I have a greate team and we work dedicately and some of our activities are Codeing Competations like Freshers Code and Seminars by techniest on embedding systems and classes include python programming and Under CSI we have also stated a mentorship programme which helps student to develop project on various topics under seniors.</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-5">
+					                  <i class="icon-pen2"></i>
+					               </div>
+					               <div class="timeline-label">
+					               	<h2><a href="#">Operations Coordinator Under Quizophilic India</a> <span>2017-2018</span></h2>
+					                  <p>At Quiophilic my work is to handle management and analyze and improve organizational processes, and work to improve quality, productivity and efficiency for different Qizzing Events.I am also worked as in the main team for Enigma Quiz and IPL Auction I have also worked as Sponsorship Coordintor. I also worked as head in  organising techQuiz in BIT Mesra.  </p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Computer Science Engineering from  Birla Institute Technology Mesra
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p> <strong></strong>I am persuing Bechlor of Engineering in Computer Science Engineering From Birla Institute Of Technology.</p>
+																			        </div>
+									    </div>
+									</div>
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingThree">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">St. Jaorge Academy,Jaipur(12th)
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+									        <div class="panel-body">
+									            <p>I have done my 12th in Rajasthan Board from St. Jaorge Academy.</p>	
+									        </div>
+									    </div>
+									</div>
+
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="colorlib-work" data-section="work">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">My Projects aka Work</span>
+							<h2 class="colorlib-heading animate-box">Recent Projects</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-1.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/ashishgupta2598/3D-reconstruction-Deep-Res-Net-">3D Object Reconstruction</a></h3>
+										<span><b><i>Deep Learning & Computer Vision(3D)</i></b></span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-2.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/ashishgupta2598/Silhouette-Using-Sementic-Segmentation">Silhoutte Generation Using Semantic Segmentation</a></h3>
+										<span><b><i>Deep Learning(CNN)</b></i></span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
+							<div class="project" style="background-image: url(images/img-3.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="work.html">Chatbot Using Reddit Dataset with Attention Mechanism</a></h3>
+										<span><b><i>Deep Learning(RNN) and SQLLite</b></i></span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
+							<div class="project" style="background-image: url(images/img-4.png);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/ashishgupta2598/Object-Pose-Estimation">Object Pose Estimation(6 DOF)</a></h3>
+										<span><b><i>Rotation and translation Matrices using CNN</b></i></span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="project" style="background-image: url(images/img-5.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/ashishgupta2598/NIM-GAME">NIM Game Using AI Hurastics</a></h3>
+										<span><b><i>Java Desktop Application using Swings</b></i></span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-6.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/ashishgupta2598/Fower-classification-with-live-info-fatch">Botanical Flower Detector with Web Search Facility</a></h3>
+										<span>Deep Learning(CNN) with OpenCV and Google API for web Search</span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-7.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/ashishgupta2598/RNN-Sentiment-Analysis">Sentiment Analysis</a></h3>
+										<span>Deep Learning(RNN) with imdb dataset</span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="project" style="background-image: url(images/img-8.jpg);">
+								<div class="desc">
+									<div class="con">
+										<h3><a href="https://github.com/ashishgupta2598/Online-Exmanation-System">Online Test System with Marks Evalution Using Fuzzy Logic(Online Portal)</a></h3>
+										<span>Java Server Pages with MySql for backend and HTML,CSS Frontand</span>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				
+				</div>
+			</section>
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Read</span>
+							<h2 class="colorlib-heading">Recent Blog</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="https://medium.com/@ashishgupta_65016/constructing-visual-hull-for-3d-object-reconstruction-1552aded5b8" target=_blank class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>May 30, 2019 </small> <small>  </small> </span>
+									<h3><a href="https://medium.com/@ashishgupta_65016/constructing-visual-hull-for-3d-object-reconstruction-1552aded5b8" target=_blank>Constructing Visual Hull for 3D object reconstruction</a></h3>
+									<p>Visual Hulls plays a crucial role in 3D reconstruction and 3D reconstruction now a days are in hot zone.Lets learn and delve deep into the algorithms.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="https://medium.com/@ashishgupta_65016/a-year-of-learning-ai-d532259fc0f6" class="blog-img" target=_blank><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
+								<div class="desc">
+									<span><small>June 15,2019 </small> | <small> AI Journey </small></span>
+									<h3><a href="https://medium.com/@ashishgupta_65016/a-year-of-learning-ai-d532259fc0f6" target=_blank>A Year of Learning AI</h3></a>
+									<br><p>I have began AI a year before and during this journey I find various difficulties.I want to share all the resources that I find useful.</p>
+								</div>
+							</div>
+						</div>
+											<div class="row">
+						
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-mail"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="mailto:ashishgupta2598@gmail.com?Subject=Hello%20again" target="_top">ashishgupta2598@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-social-linkedin-circular"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="https://www.linkedin.com/in/ashish-gupta-36934874/" target=_blank>linkedin.com/in/ashish-gupta-36934874/</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://+91 7726996558">+91 7726996558</a></p>
+								</div>
+							</div>
+						
+						<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-social-github"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="https://github.com/ashishgupta2598?tab=repositories/" target=_blank>ashishgupta2598</a></p>
+								</div>
+						</div></div>
+					</div>
+				</div>
+			</section>
+		
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
+</html>
+
