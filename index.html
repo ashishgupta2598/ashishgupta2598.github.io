@@ -4,6 +4,40 @@
 <meta http-equiv='pragma' content='no-cache'>
 <html>
 	<head>
+		<style>
+			body {
+			  font-family: sans-serif;
+			}
+			.publication {
+			  display: flex; /* Allow for side-by-side image and text */
+			  align-items: flex-start; /* Vertically align to the top */ 
+			  margin: 10px 0;
+			}
+			.publication-image {
+				width: 150px;  /* Adjust width as needed */
+				height: auto; /* Maintain aspect ratio */
+				margin-right: 10px; /* Space between image and text */
+				border: 1px solid #ddd; /* Optional border */
+			}
+			.publication-content { /* New class to target the text content */
+				width: calc(100% - 70px); /* Account for the image width */
+			} 
+			.publication-title {
+			  font-weight: bold;
+			}
+			.publication-authors {
+			  font-style: italic;
+			}
+			.publication-links {
+			  display: flex;
+			  flex-wrap: wrap;
+			  gap: 10px;
+			}
+			.publication-link {
+			  text-decoration: none;
+			  color: blue;
+			}
+		  </style>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Ashish Gupta Portfolio</title>
@@ -54,6 +88,7 @@
 
 	</head>
 	<body>
+
 	<div id="colorlib-page">
 		<div class="container-wrap">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -70,10 +105,12 @@
 						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
 						<li><a href="#" data-nav-section="about">About</a></li>
 						
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
+						<!-- <li><a href="#" data-nav-section="skills">Skills</a></li> -->
 						
 						<li><a href="#" data-nav-section="experience">Experience</a></li>
 						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="Publications">Publications</a></li>
+
 						<li><a href="#" data-nav-section="work">Work</a></li>
 						<li><a href="#" data-nav-section="blog">Blog</a></li>
 						<li><a href="#" data-nav-section="contact">Contact</a></li>
@@ -127,8 +164,8 @@
 									<div class="about-desc">
 										<span class="heading-meta">About Us</span>
 										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Ashish Gupta</strong> I am AI researcher and Web designer with passion to bring a better world. I have passion to help people,and improves the world.I am pesruing Bachlor of Engineering in Computer Science Engineering from Birla Institute Of Technology,Mesra.During this journey of Engineering I have done three internships.My recent work is under Professor Arun K. Punjari,Vice Chancellor,Centeral University of Rajasthan,Ajmer.As a research Fellow I worked on 3D object reconstruction,Semantic Segmentation, Voxels,Pose estimation,Visual Hull algorithms,etc. 
-										In my other internship in Orbnet Softech I worked in web designing as backend developer and Desktop Application development with Java. I also have experinced as Graphic Designer,Content Creator,and Marketing/Sponsorship Intern at Unfold Crafts.
+										<p><strong>Hi I'm Ashish Gupta</strong> I am an Enterprenure and have expertise in AI Software developement. 
+											I love to find solutions using AI. I have worked at WadhwaniAI where I was a part of Maternal Child and Newborn(MNCH), team.Previously I have worked with IIT KGP as research assitant. I have also worked at Signzy as AI SDE-2 and previously worked with Advance computing lab at IIT Madras. 
 										</p>
 										<p>Other then Academics,I have also worked  Computer Society of India ,BIT Student Chapter Head. I have worked as a operation coordinator at Quizophilic India and as a sponsorship coordinator at Cavorts Sports Fest BIT Mesra. And Sposorship and managenet coordinator at Surbhi Music Academy. </p>
 										<p>I am an AI enthusiast and also in search between connection of AI with Humans.Having Innovation and curious mind, I am constantly on the lookout for solutions to existent problems in our everyday life and look forward to creating something that helps to improve the lives of billions of people across the world. I always see desiging AI as teaching a small child to perform some task. I am always curious to learn different dimensions of AI like backpropogation,Dataset Preparation,Generalization(Bias,etc.) and model designing.</p>
@@ -144,10 +181,10 @@
 					</div>
 				</div>
 			</section>
-			
+		
 
 
-				<section class="colorlib-about" data-section="about">
+				<!-- <section class="colorlib-about" data-section="about">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-12">
@@ -167,16 +204,16 @@
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> -->
 
-
+			
 
 
 		<section class="colorlib-experience" data-section="experience">
 				<div class="colorlib-narrow-content">
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience/Internships</span>
+							<span class="heading-meta">Experience</span>
 							<h2 class="colorlib-heading animate-box">Work Experience</h2>
 						</div>
 					</div>
@@ -196,18 +233,21 @@
 					                  <p>
 										Associate Machine Learning Scientist
 										WadhwaniAI
-										•	Holds ownership of Pregnancy report Stratification (PRS) Project.
-										•	Being touchpoint between Client and different teams for technical design and end to end deployment.
-										•	Achieved specificity and sensitivity of 80% and 70% respectively in short interval of time with ready to deploy model.
-										•	Explored different LLM's on Indian Languages for PRS usecases.
-										•	Developed AI-based newborn virtual weighing machine with other anthropometric parameters.
-										•	To run-on low-end devices such as mobiles, reduced AI model size by 92% and improve processing time by 91%, improving efficiency and prediction speed.
-										•	Increased prediction accuracy by 20% by combining visual and tabular data.
-										•	Conducted various model analyses (attention, weight distribution).
-										•	Showcased analytical skills and ability to interpret complex AI model behavior.
-										•	Build and Manage data collection pipeline with automatic data quality  checks, that reduced data collection wastage by 30%.
-										•	Performed POC’s for MNCH projects such as Growth Faltering, PRS.										
-										</p>
+										<ul>
+										<li>	Holds ownership of Pregnancy report Stratification (PRS) Project.</li>
+										<li>	Being touchpoint between Client and different teams for technical design and end to end deployment.</li>
+										<li>	Achieved specificity and sensitivity of 80% and 70% respectively in short interval of time with ready to deploy model.</li>
+										<li>	Explored different LLM's on Indian Languages for PRS usecases.</li>
+										<li>	Developed AI-based newborn virtual weighing machine with other anthropometric parameters.</li>
+										<li>	To run-on low-end devices such as mobiles, reduced AI model size by 92% and improve processing time by 91%, improving efficiency and prediction speed.</li>
+										<li>	Increased prediction accuracy by 20% by combining visual and tabular data.</li>
+										<li>	Conducted various model analyses (attention, weight distribution).</li>
+										<li>	Showcased analytical skills and ability to interpret complex AI model behavior.</li>
+										<li>	Build and Manage data collection pipeline with automatic data quality  checks, that reduced data collection wastage by 30%.</li>
+										<li>	Performed POC’s for MNCH projects such as Growth Faltering, PRS.</li>							
+										<ul>
+
+									</p>
 					               </div>
 					            </div>
 					         </article>
@@ -223,14 +263,15 @@
 					               <div class="timeline-label">
 					                  <h2>Core AI SDE-2, Signzy <span>Jan20 - Jan22</span></h2>
 					                  <p>
-										•	Manages ownership of diverse microservices and AI products, deploying on AWS, Azure, and on-prem end-to-end solutions.
-										•	Awarded best team Player, as Worked closely with multiple teams and roles to make sure the deliveries happen & are executed.
-										•	Being a touchpoint for clients and Multiple Vendors.
-										•	Specialized in advanced technologies: Deep Face Authentication (1:N match), face match, and 1:1 face detection, OCR.
-										•	Implemented solutions for digital tampering challenges, including screenshot and copy-paste manipulation, and copy-move detection.
-										•	Applied secure masking techniques for Aadhaar and EkYC forms, utilizing OCR and segmentation.
-										•	Led the design and implementation of extraction solutions with Named Entity Recognition (NER).
-										•	Reduced weight/usage on advance API's by developing image quality analysis, which rejects 30% of bad quality images.
+										<li>	Manages ownership of diverse microservices and AI products, deploying on AWS, Azure, and on-prem end-to-end solutions.</li>
+										<li>	Awarded best team Player, as Worked closely with multiple teams and roles to make sure the deliveries happen & are executed.</li>
+										<li>	Being a touchpoint for clients and Multiple Vendors.</li>
+										<li>	Specialized in advanced technologies: Deep Face Authentication (1:N match), face match, and 1:1 face detection, OCR.</li>
+										<li>	Implemented solutions for digital tampering challenges, including screenshot and copy-paste manipulation, and copy-move detection.</li>
+										<li>	Applied secure masking techniques for Aadhaar and EkYC forms, utilizing OCR and segmentation.</li>
+										<li>	Led the design and implementation of extraction solutions with Named Entity Recognition (NER).</li>
+										<li>	Reduced weight/usage on advance API's by developing image quality analysis, which rejects 30% of bad quality images.</li>
+										
 										</p>
 					               </div>
 					            </div>
@@ -245,10 +286,10 @@
 
 					               <div class="timeline-label">
 					                  <h2>Research,IIT Kharagpur <span>Jan-Aug 2022</span></h2>
-					                  <p>•	Published Research paper in A* Conference, selected as long paper in COLING22.
-										•	A Novel Multi-Task Learning Approach for Context-Sensitive Compound Type Identification in Sanskrit.
-										•	Explore other AI areas such as Graph Neural Net, Reinforcement Learning, Generative AI.
-										•	Research on different Language models and GraphsNN's for Medical Natural Language Inference, achieving 88% f1.
+					                  <p><li>	Published Research paper in A* Conference, selected as long paper in COLING22.
+										<li>	<a href="https://aclanthology.org/2022.coling-1.358/"> A Novel Multi-Task Learning Approach for Context-Sensitive Compound Type Identification in Sanskrit.</a>
+										<li>	Explore other AI areas such as Graph Neural Net, Reinforcement Learning, Generative AI.
+										<li>	Research on different Language models and GraphsNN's for Medical Natural Language Inference, achieving 88% f1.
 										</p>
 					               </div>
 					            </div>
@@ -280,9 +321,16 @@ same.</p>
 
 					               <div class="timeline-label">
 					                  <h2>Junior ML Engineer Omdena <span>2019</span></h2>
-					                  <p>A team of 40 technocrate from 23 countries is working for social welfare to find out the real time solution for forest fire outbreak in Brazilian Forest using AI. The team will work for 8 weeks (2 months) i.e Oct 2019 to Dec 2019 to find out the solution .
-							Our work includes Semantic Segmentation Problems with image
-							classification.</p>
+					                  <p>
+										<ul>
+										<li>A team of 40 technocrate from 23 countries is working for social welfare to find out the real time solution for forest fire outbreak in Brazilian Forest using AI. The team will work for 8 weeks (2 months) i.e Oct 2019 to Dec 2019 to find out the solution .
+											Our work includes Semantic Segmentation Problems with image
+											classification.
+										</li>
+							<li><a href="https://omdena.com/projects/ai-wildfires/">Project Link</li></a>
+							<li><a href="https://www.omdena.com/blog/junior-data-scientist">Blog Link</li></a>
+							</ul>
+						</p>
 					               </div>
 					            </div>
 					         </article>
@@ -363,7 +411,6 @@ same.</p>
 				</div>
 			</section>
 
-
 			<section class="colorlib-education" data-section="education">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -410,6 +457,9 @@ same.</p>
 					</div>
 				</div>
 			</section>
+			
+
+			
 			<section class="colorlib-work" data-section="work">
 				<div class="colorlib-narrow-content">
 					<div class="row">
@@ -581,7 +631,7 @@ same.</p>
 									<i class="icon-phone"></i>
 								</div>
 								<div class="colorlib-text">
-									<p><a href="tel://+91 7726996558">+91 7726996558</a></p>
+									<p><a href="tel://+91 6375057061">+91 6375057061</a></p>
 								</div>
 							</div>
 						
@@ -596,6 +646,58 @@ same.</p>
 					</div>
 				</div>
 			</section>
+
+			<section class="colorlib-Publications" data-section="Publications">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-8">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-8">
+									<div class="about-about-desc">
+										<span class="heading-meta">Publications</span>
+										<h2 class="colorlib-heading">Publications</h2>
+
+										
+										<div class="Publications">
+											<div class="publication-content"> <h4 class="publication-title">A Novel Multi-Task Learning Approach for Context-Sensitive Compound Type Identification in Sanskrit</h3>
+											  <p class="publication-authors">Ashish Gupta, Jivnesh Sandhan ,Hrishikesh Terdalkar, Tushar Sandhan, Suvendu Samanta, Laxmidhar Behera, Pawan Goyal</p>
+											  <p>COLING 2022</p>
+											  <div class="publication-links">
+												<a class="publication-link" href="https://arxiv.org/abs/2208.10310v1">ArXiv</a>
+												<a class="publication-link" href="https://aclanthology.org/2022.coling-1.358.pdf">Paper</a>
+												<a class="publication-link" href="https://aclanthology.org/2022.coling-1.358/">Project page</a>
+												<a class="publication-link" href="https://github.com/ashishgupta2598/SaCTI">Code</a>
+												
+											  </div>
+											</div>
+										  </div>
+										  <br><br>
+
+
+
+										  <div class="publication">
+											<div class="publication-content"> <h4 class="publication-title">NurtureNet: A Multi-task Video-based Approach for Newborn Anthropometry</h3>
+											  <!-- <p class="publication-authors">Ashish Gupta, Jivnesh Sandhan ,Hrishikesh Terdalkar, Tushar Sandhan, Suvendu Samanta, Laxmidhar Behera, Pawan Goyal</p> -->
+											  <p>CVPR Workshop-CVPM 2024</p>
+											  <p>Paper Yet to present</p>
+
+											  
+												<a class="publication-link" href="https://www.wadhwaniai.org/programs/newborn-anthropometry/">Project page</a>
+											  </div>
+											</div>
+										  </div>
+										
+
+
+									</div>
+								</div>
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</section>
+
 		
 		</div><!-- end:colorlib-main -->
 	</div><!-- end:container-wrap -->
